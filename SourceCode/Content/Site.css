@@ -1,0 +1,82 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: -760px !important;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-left: auto !important;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+#claimsTable {
+    margin-left: auto !important; /* Center the table horizontally */
+    border-collapse: collapse !important; /* Remove spacing between cells */
+    width: 20% !important;  /* Set the table width to fill its container */
+    margin-left: -1px !important;
+}
+
+#claimsTable_wrapper, .col-md-12 {
+    width: 1920px;
+    margin-left: auto !important;
+    height: auto;
+}
+
+table.dataTable tbody th, table.dataTable tbody td{
+    padding: 0 !important;
+    text-align: center;
+    width: 10!important; /* set the desired width value */
+    max-width: 10!important; /* set the maximum width value */
+    height: auto !important; /* set the height to auto */
+    font-size: 13.4px !important;
+}
+
+table.dataTable thead th, table.dataTable thead td{
+    padding: 2px !important;
+    font-weight: normal !important;
+    font-size: 13.4px !important;
+}
+
+.claimsTable_paginate, .dataTables_paginate, .paging_simple_numbers, .claimsTable_filter, .dataTables_filter{
+    float: left !important;
+    padding-left: 100px !important;
+    text-align: left !important;
+
+}
+
+  
+  
+  
+  

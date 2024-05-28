@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple jQuery Web Service Client</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/webservicedemo.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+    <script src="Scripts/visualization.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="Content/mySite.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.js"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Web Service Example</a>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-12">
+                &nbsp;
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <input type="button" value="Get All Claims" class="btn btn-sm btn-primary" onclick="getAllBooks();" />
+                &nbsp;
+                <input type="button" value="Add New Claim" class="btn btn-sm btn-primary" onclick="createNewBookForm();" />
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                &nbsp;
+            </div>
+        </div>
+        <div id="newbookform" class="row">
+        </div>
+
+        <div id="allbooks" class="row">
+        </div>
+        
+
+        <footer>
+            <p>&copy; 2019 - University of Derby</p>
+        </footer>
+    </div>
+    <div class="myDiv">
+        <h1>Scatter Plot correlation between INCOME and AGE</h1>
+        <svg class="chart1">
+            
+        </svg>
+
+        <h1>Bar Chart education levels</h1>
+        <svg class="chart2">
+    
+        </svg>
+    
+        <h1>Pie chart Gender Distribution of Drivers</h1>
+        <svg class="chart3">
+    
+        </svg>
+    
+        <h1>Heatmap  that displays the frequency of claims</h1>
+        <svg class="chart4">
+    
+        </svg>
+    </div>
+</body>
+</html>

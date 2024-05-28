@@ -1,0 +1,118 @@
+/* set a white background color for the page */
+.myDiv {
+    background-color: #fff;
+    color: #000000;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.myDiv{
+    text-align: center;
+    padding-left: 55em;
+}
+
+/* style the button */
+button {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+.chart1 text.axis-label {
+    fill: rgb(0, 0, 0) !important;
+}
+  
+
+/* style the charts */
+.chart1, .chart2, .chart4{
+    width:50%;
+    height: 600px;
+    padding-left: 5em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.chart3{
+    width:50%;
+    height: 600px;
+    padding-left: 12em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* style the SVG elements inside the charts */
+.chart1 svg, .chart2 svg, .chart3 svg, .chart4 svg{
+    width: 100%;
+    height: 100%;
+}
+
+/* style the chart titles */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    color: #0077cc;
+}
+
+/* add a cool box shadow to the charts */
+.chart1, .chart2, .chart3, .chart4, .chart5 {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* add a cool underline effect to the button */
+button::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+}
+
+button:hover::after {
+    width: 100%;
+}
+
+/* add a cool background to the button when clicked */
+button:active {
+    background-color: #005fa3;
+}
+
+/* style the links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #005fa3;
+}
+
+/* add a cool animation to the charts */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.chart1 svg, .chart2 svg, .chart3 svg, .chart4 svg, .chart5 svg {
+    animation: pulse 2s infinite;
+}
